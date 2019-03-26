@@ -40,13 +40,13 @@ public class NewFeatures {
     // Static Imports
     
     
-    // Enumerations
+    // Enumerations(Typesafe Enums)
     
-    // 自动装箱与自动拆箱
+    // 自动装箱与自动拆箱(Autoboxing/Unboxing)
     
-    // 引入泛型
+    // 引入泛型(Generics)
     
-    // 元数据（注解）
+    // 元数据（注解） (Metadata Annotations)
     
     // 引入Instrumentation
   }
