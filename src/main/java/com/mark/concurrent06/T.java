@@ -9,7 +9,7 @@ public class T implements Runnable {
 
 	private static int count = 10;
 	
-	public synchronized void run() { // 等同于synchronized(com.mark.concurrent04.T.class)， 原子操作
+	public synchronized void run() { // 等同于synchronized(com.mark.concurrent06.T.class)， 原子操作
 		count --;
 		System.out.println(Thread.currentThread().getName() + " count= " + count);
 	}
