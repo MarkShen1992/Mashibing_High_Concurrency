@@ -8,7 +8,8 @@ package com.mark.concurrent05;
 public class T implements Runnable {
 
 	private static int count = 10;
-	
+
+	@Override
 	public /* synchronized */ void run() { // 等同于synchronized(com.mark.concurrent05.T.class)， 原子操作
 		count --;
 		System.out.println(Thread.currentThread().getName() + " count= " + count);

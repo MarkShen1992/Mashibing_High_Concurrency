@@ -1,7 +1,7 @@
 package com.mark.concurrent03;
 
 /**
- * synchronized 对对象加锁
+ * synchronized 对方法加锁
  * @author 18009
  *
  */

@@ -22,6 +22,9 @@ public class MyContainer1<T> {
 	
 	public synchronized void put(T t) {
 		while (lists.size() == MAX) { // 为什么要用while， 不用if?
+			/**
+			 * 两个以上线程的时候
+			 */
 			try {
 				this.wait();
 			} catch (InterruptedException e) {

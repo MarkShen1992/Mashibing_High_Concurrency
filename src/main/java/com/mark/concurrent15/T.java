@@ -18,6 +18,7 @@ public class T {
 	/*synchronized*/ void m() {
 		for (int i = 0; i < 10000; i++) {
 			// if (count.get() < 1000)
+			// 这个位置没有原子性
 			count.incrementAndGet();
 		}
 	}
