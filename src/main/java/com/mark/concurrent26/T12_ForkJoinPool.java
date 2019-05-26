@@ -8,7 +8,7 @@ import java.util.concurrent.RecursiveAction;
 
 /**
  * ForkJoin非常经典的算法
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T12_ForkJoinPool {

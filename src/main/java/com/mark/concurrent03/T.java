@@ -2,7 +2,7 @@ package com.mark.concurrent03;
 
 /**
  * synchronized 对方法加锁
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {

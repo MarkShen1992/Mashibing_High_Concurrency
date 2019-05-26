@@ -4,7 +4,7 @@
 package com.java6;
 
 /**
- * @author 18009
+ * @author MarkShen
  * @see https://www.oracle.com/technetwork/java/javase/features-141434.html
  */
 public class NewFeatures {

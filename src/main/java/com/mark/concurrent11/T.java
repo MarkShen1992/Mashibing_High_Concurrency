@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * 比如， 在一个App web处理过程中， 多个servlet线程共同访问同一资源，这时如果异常处理不合适，
  * 在第一个线程中抛出异常， 其他线程就会进入同步代码区， 有可能会访问到异常产生时的数据。
  * 因此， 要非常小心处理同步业务中的异常
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {

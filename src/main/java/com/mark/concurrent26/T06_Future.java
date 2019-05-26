@@ -8,7 +8,7 @@ import java.util.concurrent.FutureTask;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T06_Future {
@@ -29,9 +29,12 @@ public class T06_Future {
 			return 1;
 		});
 		
-//		System.out.println(f.get());
-		System.out.println(f.isDone());
 		System.out.println(f.get());
-		System.out.println(f.isDone());
+		// System.out.println(f.isDone());
+		// System.out.println(f.get());
+		// System.out.println(f.isDone());
+
+		// 结束线程
+		// service.shutdown();
 	}
 }

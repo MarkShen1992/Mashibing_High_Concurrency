@@ -1,5 +1,8 @@
 package com.thread;
 
+/**
+ * @author MarkShen
+ */
 public class Cat implements AnimalBehavior {
 
     @Override

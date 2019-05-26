@@ -10,10 +10,14 @@ import java.util.concurrent.TimeUnit;
  * 运行下面程序，理解ThreadLocal
  * 在使用的时候，状态改变，自己维护这个状态，不用通知其他线程，这时使用ThreadLocal
  * 可能会导致内存泄漏
- * @author 18009
+ *
+ * 使用场景：自己进行改变，自己维护这个状态，不用其他线程
+ * https://blog.csdn.net/zsfsoftware/article/details/50933151
+ * @author MarkShen
  *
  */
 public class ThreadLocal2 {
+	// 每个线程各放一份，修改只改自己的一份
 	static ThreadLocal<Person> tl = new ThreadLocal<>();
 	public static void main(String[] args) {
 		new Thread(() -> {

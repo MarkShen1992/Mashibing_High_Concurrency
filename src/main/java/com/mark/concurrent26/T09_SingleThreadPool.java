@@ -4,7 +4,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * @author 18009
+ * 任务执行有前后顺序
+ * @author MarkShen
  *
  */
 public class T09_SingleThreadPool {

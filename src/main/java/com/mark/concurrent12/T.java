@@ -19,12 +19,13 @@ import java.util.concurrent.TimeUnit;
  * 
  * Java线程处理的内存模型， 深入了解《深入Java虚拟机》 JMM
  * JDK 并发容器， 能用volatile的地方，就不要用锁
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {
 	/**
 	 * https://www.cnblogs.com/Mushrooms/p/5151593.html
+	 *
 	 * 补充内容：分享点儿知识，内容就是CPU内部的寄存器。就这个程序来说，有两个线程。一个是主线程，
 	 * 一个是自己启动的线程。当自己启动的线程运行时，running这个变量的值会被CPU把值从内存中读到
 	 * CPU中的寄存器(即CPU中的cache)中。为什么这么做呢？因为CPU的速度要比内存的速度快，内存的速

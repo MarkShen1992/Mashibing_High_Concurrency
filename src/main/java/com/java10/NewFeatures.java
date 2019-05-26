@@ -4,7 +4,7 @@
 package com.java10;
 
 /**
- * @author 18009
+ * @author MarkShen
  * @see https://www.oracle.com/technetwork/java/javase/10-relnote-issues-4108729.html
  */
 public class NewFeatures {

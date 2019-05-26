@@ -3,8 +3,8 @@ package com.mark.concurrent26;
 import java.util.concurrent.Executor;
 
 /**
- * 
- * @author 18009
+ * Executor接口
+ * @author MarkShen
  *
  */
 public class T01_MyExecutor implements Executor {

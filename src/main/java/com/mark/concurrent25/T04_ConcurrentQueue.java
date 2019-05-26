@@ -4,8 +4,8 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * @author 18009
- *
+ * 重点内容
+ * @author MarkShen
  */
 public class T04_ConcurrentQueue {
 	
@@ -24,7 +24,7 @@ public class T04_ConcurrentQueue {
 		System.out.println(strs.peek());
 		System.out.println(strs.size());
 		
-		// 双端队列
+		// 双端队列 Deque
 		// 并发容器中常用
 	}
 }

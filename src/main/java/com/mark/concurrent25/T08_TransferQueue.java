@@ -8,7 +8,7 @@ import java.util.concurrent.LinkedTransferQueue;
  * 
  * 1) 先启动消费者线程
  * 2) 先启动生产者线程
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T08_TransferQueue {

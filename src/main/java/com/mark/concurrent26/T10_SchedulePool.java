@@ -6,7 +6,8 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
+ * 定时任务线程池
+ * @author MarkShen
  *
  */
 public class T10_SchedulePool {

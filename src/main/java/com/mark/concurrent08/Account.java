@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * 对业务读方法不加锁
  * 容易产生脏读问题(dirty read) CopyOnWrite
  * https://www.cnblogs.com/phoebus0501/archive/2011/02/28/1966709.html
- * @author 18009
+ * @author MarkShen
  *
  */
 public class Account {

@@ -4,7 +4,7 @@ package com.mark.concurrent07;
  * synchronized 对方法加锁, 同步方法和非同步方法是否可以同时调用
  * 在执行m1的过程之中，能否执行m2?
  * 同步方法执行时， 非同步方法可以执行
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {

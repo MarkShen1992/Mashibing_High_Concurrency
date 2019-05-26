@@ -8,7 +8,7 @@ import java.util.Random;
 /**
  * ForkJoin非常经典的算法
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T14_ParallelStreamAPI {

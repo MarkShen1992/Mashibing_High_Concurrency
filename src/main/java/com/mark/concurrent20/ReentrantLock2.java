@@ -12,7 +12,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用reentrantlock可以完成相同的功能
  * 需要注意的是，必须要必须要必须要手动释放锁
  * 使用synchronized锁定的话如果遇到异常，JVM会自动释放锁，但是lock必须手动释放锁， 因此经常在finally中进行锁的释放
- * @author 18009
+ * @author MarkShen
  *
  */
 public class ReentrantLock2 {

@@ -8,7 +8,7 @@ import java.util.concurrent.TimeUnit;
  * synchronized的优化
  * 同步代码中的语句越少越好
  * 比较m1和m2
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {

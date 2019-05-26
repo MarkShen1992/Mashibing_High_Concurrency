@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T08_CachedThreadPool {
@@ -29,5 +29,7 @@ public class T08_CachedThreadPool {
 		TimeUnit.SECONDS.sleep(80);
 		
 		System.out.println(service);
+
+		service.shutdown();
 	}
 }

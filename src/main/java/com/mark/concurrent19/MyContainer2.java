@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
  * 添加volatile，使t2可以得到通知， 但是，t2线程的死循环很浪费CPU, 如果不用死循环该怎么做？
  * 面试题要比你的竞争者好， 比别人牛
  * 怎么展现自己（重要）
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer2 {

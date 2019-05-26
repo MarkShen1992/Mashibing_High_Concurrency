@@ -14,7 +14,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用synchronized锁定的话如果遇到异常，JVM会自动释放锁，但是lock必须手动释放锁， 因此经常在finally中进行锁的释放
  * 
  * 使用reentrantlock可以进行尝试锁定"tryLock", 这样无法锁定，或者在指定时间内无法锁定，线程可以决定是否继续等待
- * @author 18009
+ * @author MarkShen
  *
  */
 public class ReentrantLock3 {

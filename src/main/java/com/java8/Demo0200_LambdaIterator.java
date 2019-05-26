@@ -3,6 +3,9 @@ package com.java8;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * @author MarkShen
+ */
 public class Demo0200_LambdaIterator {
     public static void main(String[] args) {
         // Java 8之前：

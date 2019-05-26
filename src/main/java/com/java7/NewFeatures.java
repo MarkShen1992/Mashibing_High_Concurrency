@@ -4,7 +4,7 @@
 package com.java7;
 
 /**
- * @author 18009
+ * @author MarkShen
  * @see https://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
  */
 public class NewFeatures {

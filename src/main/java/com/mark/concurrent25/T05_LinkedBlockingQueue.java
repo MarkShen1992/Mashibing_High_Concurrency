@@ -6,8 +6,8 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
- *
+ * 非常常用
+ * @author MarkShen
  */
 public class T05_LinkedBlockingQueue {
 	static BlockingQueue<String> strs = new LinkedBlockingQueue<>();  // 非常常用， 无界队列

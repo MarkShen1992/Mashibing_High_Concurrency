@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * 使用wait和notify/notifyAll来实现
  * Effective Java: wait 往往与 while一起使用
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer1<T> {

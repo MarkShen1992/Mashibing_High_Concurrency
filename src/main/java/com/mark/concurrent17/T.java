@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
  * 但如果o变成另外一个对象，则锁定的对象发生改变
  * 应该避免将锁定对象的引用变成另外的对象
  * 锁在堆内存new出来的对象
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {
