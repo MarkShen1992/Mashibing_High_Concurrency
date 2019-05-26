@@ -1,5 +1,8 @@
 package com.thread;
 
+/**
+ * @author MarkShen
+ */
 public class MyRunnableTest {
     public static void main(String[] args) {
         MyRunnable runnable = new MyRunnable();

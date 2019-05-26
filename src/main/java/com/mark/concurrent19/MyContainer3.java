@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
  * 可以读到输出结果并不是size==5时， t2退出， 而是t1结束时通知t2才收到通知而退出
  * 想想为什么？？？
  * notify不会释放锁， sleep也不释放锁
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer3 {

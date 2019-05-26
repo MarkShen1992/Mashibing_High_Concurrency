@@ -18,7 +18,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用reentrantlock可以调用lockInterruptibly方法，可以对线程interrupt方法做出响应，
  * 在一个线程中等待锁的过程中， 可能被打断
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class ReentrantLock4 {

@@ -34,7 +34,7 @@ import java.util.concurrent.CountDownLatch;
  * 2. 队列
  * 	ArrayList
  * 	LinkedList
- * 	Collection.synchronizedXXX
+ * 	Collections.synchronizedXXX
  * 	CopyOnWrite
  * 
  * 	高并发场景
@@ -46,7 +46,7 @@ import java.util.concurrent.CountDownLatch;
  * 		SynchronousQueue
  * 	DelayQueue：定时任务
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T01_ConcurrentMap {

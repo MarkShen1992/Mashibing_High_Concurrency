@@ -9,9 +9,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * 写时复制容器 copy on write
  * 多线程下，写效率低， 读效率高
- * 适合写少读多的环境
+ * 适合写少读多的情况
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T02_CopyOnWriteList {
@@ -19,8 +19,8 @@ public class T02_CopyOnWriteList {
 	public static void main(String[] args) {
 		List<String> lists = 
 							// new ArrayList<>(); // 会有并发问题
-							new Vector<>();
-							// new CopyOnWriteArrayList<>(); // 事件监听器的队列
+							// new Vector<>();
+							new CopyOnWriteArrayList<>(); // 事件监听器的队列
 		Random r = new Random();
 		Thread[] threads = new Thread[100];
 		

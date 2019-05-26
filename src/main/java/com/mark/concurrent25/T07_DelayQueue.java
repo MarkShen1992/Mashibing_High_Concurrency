@@ -7,8 +7,8 @@ import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 用于定时任务
- * @author 18009
+ * 用于执行定时任务
+ * @author MarkShen
  *
  */
 public class T07_DelayQueue {

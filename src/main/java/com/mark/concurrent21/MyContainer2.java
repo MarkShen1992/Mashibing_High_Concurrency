@@ -17,7 +17,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * 使用Lock和Condition来实现
  * 对比两种方式，Condition的方式可以更加精确的指定哪些线程被唤醒
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer2<T> {
@@ -27,6 +27,7 @@ public class MyContainer2<T> {
 	private int count = 0;
 	
 	private Lock lock = new ReentrantLock();
+	// 精确指定
 	private Condition producer = lock.newCondition();
 	private Condition consumer = lock.newCondition();
 	

@@ -9,8 +9,8 @@ import java.util.concurrent.ConcurrentLinkedQueue;
  * 写一个模拟程序
  * 
  * 分析下面程序可能产生那些问题?
- * 重复销售， 超量销售
- * @author 18009
+ * 没问题，效率高
+ * @author MarkShen
  *
  */
 public class TicketSeller4 {

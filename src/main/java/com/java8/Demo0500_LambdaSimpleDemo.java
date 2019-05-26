@@ -1,5 +1,8 @@
 package com.java8;
 
+/**
+ * @author MarkShen
+ */
 public class Demo0500_LambdaSimpleDemo {
     public static void main(String[] args) {
         // 1. 不需要参数,返回值为 5

@@ -5,6 +5,9 @@ import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * @author MarkShen
+ */
 public class Demo0400_LambdaMapReduce {
     public static void main(String[] args) {
         // 不使用lambda表达式为每个订单加上12%的税

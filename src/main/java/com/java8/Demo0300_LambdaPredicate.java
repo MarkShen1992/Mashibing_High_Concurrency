@@ -4,6 +4,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
+/**
+ * @author MarkShen
+ */
 public class Demo0300_LambdaPredicate {
     public static void main(String[] args) {
         List<String> languages = Arrays.asList("Java", "Scala", "C++", "Haskell", "Lisp");

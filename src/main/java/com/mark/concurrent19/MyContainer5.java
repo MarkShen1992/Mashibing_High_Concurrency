@@ -31,7 +31,7 @@ import java.util.concurrent.TimeUnit;
  * 当不涉及同步，只有涉及线程通信的时候，用synchronized + wait/notify就太重了
  * 这时应该考虑使用CountDownLatch/cyclicbarrier/semaphore
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer5 {

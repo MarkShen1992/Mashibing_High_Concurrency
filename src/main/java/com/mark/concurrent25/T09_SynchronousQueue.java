@@ -9,12 +9,13 @@ import java.util.concurrent.SynchronousQueue;
  * 
  * 1) 先启动消费者线程
  * 2) 先启动生产者线程
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T09_SynchronousQueue {
 
 	public static void main(String[] args) throws InterruptedException {
+		// 特殊的TransferQueue, 没有容量的Queue, 容量为0。
 		BlockingQueue<String> strs = new SynchronousQueue<>();  // 没有容量的队列
 		
 		new Thread(() -> {

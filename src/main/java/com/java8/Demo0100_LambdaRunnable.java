@@ -1,5 +1,8 @@
 package com.java8;
 
+/**
+ * @author MarkShen
+ */
 public class Demo0100_LambdaRunnable {
     public static void main(String[] args) {
         // 用lambda表达式实现Runnable

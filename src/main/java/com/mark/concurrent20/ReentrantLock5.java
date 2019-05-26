@@ -17,8 +17,9 @@ import java.util.concurrent.locks.ReentrantLock;
  * 在一个线程中等待锁的过程中， 可能被打断
  * 
  * reentrantlock还可以指定为公平锁，默认的synchronized为非公平锁
+ * 谁等的时间长，谁获得锁
  * 
- * @author 18009
+ * @author MarkShen
  *
  */
 public class ReentrantLock5 extends Thread {

@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 /**
  * 解决同样的问题更高效的方法，使用AtomXXX类
  * AtomXXX类本身方法都是原子性的， 但不能保证多方法连续调用的原子性。
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T {
@@ -18,6 +18,7 @@ public class T {
 	/*synchronized*/ void m() {
 		for (int i = 0; i < 10000; i++) {
 			// if (count.get() < 1000)
+			// 这个位置没有原子性
 			count.incrementAndGet();
 		}
 	}

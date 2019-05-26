@@ -6,7 +6,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T06_ArrayBlockingQueue {

@@ -2,13 +2,14 @@ package com.mark.concurrent06;
 
 /**
  * synchronized 对对象加锁
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T implements Runnable {
 
 	private static int count = 10;
-	
+
+	@Override
 	public synchronized void run() { // 等同于synchronized(com.mark.concurrent06.T.class)， 原子操作
 		count --;
 		System.out.println(Thread.currentThread().getName() + " count= " + count);

@@ -2,6 +2,9 @@ package com.thread;
 
 import java.util.concurrent.TimeUnit;
 
+/**
+ * @author MarkShen
+ */
 public class MyRunnable implements Runnable {
 
     @Override

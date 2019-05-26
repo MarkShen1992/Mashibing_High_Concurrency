@@ -5,13 +5,14 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 18009
+ * @author MarkShen
  *
  */
 public class T05_ThreadPool {
 	public static void main(String[] args) throws InterruptedException {
+		// 固定的
 		ExecutorService service = Executors.newFixedThreadPool(5);
-		for (int i = 1; i <= 5; i ++) {
+		for (int i = 1; i <= 10; i ++) {
 			service.execute(()->{
 				try {
 					TimeUnit.MILLISECONDS.sleep(500);
@@ -27,11 +28,13 @@ public class T05_ThreadPool {
 		service.shutdown();
 		System.out.println(service.isTerminated());
 		System.out.println(service.isShutdown());
+
 		System.out.println(service);
 		
 		TimeUnit.SECONDS.sleep(5);
 		System.out.println(service.isTerminated());
 		System.out.println(service.isShutdown());
+
 		System.out.println(service);
 	}
 }

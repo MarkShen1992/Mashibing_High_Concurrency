@@ -9,7 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * @author 18009
+ * 并行计算
+ * @author MarkShen
  *
  */
 public class T07_ParallelComputing {
@@ -23,6 +24,7 @@ public class T07_ParallelComputing {
 
 		ExecutorService service = Executors.newFixedThreadPool(cpuCoreNum);
 
+		// 为什么不平均分呢？
 		MyTask t1 = new MyTask(1, 80000);
 		MyTask t2 = new MyTask(80001, 130000);
 		MyTask t3 = new MyTask(130001, 170000);

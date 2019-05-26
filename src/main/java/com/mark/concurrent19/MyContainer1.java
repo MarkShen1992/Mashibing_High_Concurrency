@@ -10,7 +10,7 @@ import java.util.concurrent.TimeUnit;
  * 写两个线程，线程一添加10个元素到容器中，线程2实现监控线程的个数，当个数到5个时，线程2给出提示并结束
  * 
  * 分析下面的程序，能完成这个功能吗？
- * @author 18009
+ * @author MarkShen
  *
  */
 public class MyContainer1 {
