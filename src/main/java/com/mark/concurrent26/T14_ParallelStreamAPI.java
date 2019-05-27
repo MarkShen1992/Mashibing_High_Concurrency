@@ -18,8 +18,6 @@ public class T14_ParallelStreamAPI {
 		for (int i=0; i<10000; i++)
 			nums.add(1000000 + r.nextInt(1000000));
 		
-		System.out.println(nums);
-		
 		long start = System.currentTimeMillis();
 		nums.forEach(v->isPrime(v));
 		long end = System.currentTimeMillis();
