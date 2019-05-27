@@ -11,6 +11,8 @@ import java.util.concurrent.TimeUnit;
  */
 public class T11_WorkStealingPool {
 	public static void main(String[] args) throws InterruptedException, IOException {
+		// 根据CPU有几核启动多少个默认的线程
+		// 主动找活儿干; 守护线程，虚拟机不退出，线程不退出。
 		ExecutorService service = Executors.newWorkStealingPool();
 		System.out.println(Runtime.getRuntime().availableProcessors());  // 8核处理器
 		
@@ -19,8 +21,12 @@ public class T11_WorkStealingPool {
 		service.execute(new R(2000));
 		service.execute(new R(2000));
 		service.execute(new R(2000));
+		service.execute(new R(2000));
+		service.execute(new R(2000));
+		service.execute(new R(2000));
+		service.execute(new R(2000));
 		
-		// 由于产生的是守护线程(Daemon Thread)， 主线程不阻塞，看不到输出
+		// 由于WorkStealingPool是守护线程(Daemon Thread)， 主线程不阻塞，看不到输出
 		System.in.read();
 	}
 	
