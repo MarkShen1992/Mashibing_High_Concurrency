@@ -10,6 +10,7 @@ import java.util.concurrent.RecursiveTask;
 /**
  * ForkJoin非常经典的算法
  *
+ * https://www.ibm.com/developerworks/cn/java/j-lo-forkjoin/index.html
  * 使用场景：大规模数据计算
  * 思路：多线程排序
  * @author MarkShen
