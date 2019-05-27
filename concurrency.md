@@ -30,6 +30,10 @@
 
 ![CPU&RAM](https://www.oreilly.com/library/view/designing-embedded-hardware/0596007558/httpatomoreillycomsourceoreillyimages61612.png)
 
+
+
+![computer](https://www.oreilly.com/library/view/designing-embedded-hardware/0596007558/httpatomoreillycomsourceoreillyimages61622.png)
+
 计算机硬件知识
 
 <https://www.phy.ornl.gov/csep/ca/ca.html>
