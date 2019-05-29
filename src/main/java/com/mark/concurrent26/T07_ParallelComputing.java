@@ -20,9 +20,10 @@ public class T07_ParallelComputing {
 		long end = System.currentTimeMillis();
 		System.out.println(end - start);
 
-		final int cpuCoreNum = 4;
+		// 获取线程核心数
+		final int cpuCoreNum = Runtime.getRuntime().availableProcessors();
 
-		ExecutorService service = Executors.newFixedThreadPool(cpuCoreNum);
+		ExecutorService service = Executors.newFixedThreadPool(cpuCoreNum + 1);
 
 		// 为什么不平均分呢？
 		MyTask t1 = new MyTask(1, 80000);

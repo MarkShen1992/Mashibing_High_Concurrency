@@ -23,6 +23,7 @@ public class TicketSeller2 {
 		for (int i=0; i<10; i++) {
 			new Thread(() -> {
 				while(tickets.size() > 0) {  // 原子性
+					// 中间部分不是原子性的
 					/*try {
 						TimeUnit.SECONDS.sleep(10);
 					} catch (InterruptedException e) {

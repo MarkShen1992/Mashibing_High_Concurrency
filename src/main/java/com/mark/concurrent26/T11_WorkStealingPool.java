@@ -6,8 +6,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 自己找活干的线程
  * @author MarkShen
- *
  */
 public class T11_WorkStealingPool {
 	public static void main(String[] args) throws InterruptedException, IOException {

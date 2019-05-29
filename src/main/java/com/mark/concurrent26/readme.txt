@@ -1,7 +1,7 @@
 Executor
 ExecutorService
 Callable(exist return value) = Runnable(non-return value)
-Executors: 工具类
+Executors: 工具类，类似工具类：Arrays, Collections
 ThreadPool
 Future:未来的结果
 

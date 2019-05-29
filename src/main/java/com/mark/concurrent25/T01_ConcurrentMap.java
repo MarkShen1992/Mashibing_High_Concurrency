@@ -15,12 +15,12 @@ import java.util.concurrent.CountDownLatch;
  *
  * 总结
  * 1. 对于Map/Set的选择与使用
- * 	1) 不加锁
+ * 	1) 不加锁（单线程时候）
  * 	HashMap
  * 	TreeMap
  * 	LinkedHashMap
  * 
- * 	2) 加锁
+ * 	2) 加锁（多线程场景）
  * 	并发不高
  * 	Hashtable
  * 	Collections.synchronizedXXX

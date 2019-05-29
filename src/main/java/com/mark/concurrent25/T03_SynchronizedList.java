@@ -6,7 +6,6 @@ import java.util.List;
 
 /**
  * @author MarkShen
- *
  */
 public class T03_SynchronizedList {
 	

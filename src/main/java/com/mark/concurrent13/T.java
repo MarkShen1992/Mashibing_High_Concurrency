@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * volatile	并不能保证多个线程共同修改running变量时所带来的不一致问题，也就是说volatile不能代替synchronized运行下面的程序， 并分析结果。
+ * volatile	并不能保证多个线程共同修改running变量时所带来的不一致问题，也就是说volatile不能
+ * 代替synchronized运行下面的程序， 并分析结果。
  * @author MarkShen
  *
  */

@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 对比上一个程序，可以用synchronized解决， synchronized既保证原子性，又保证可见性；而volatile只保证可见性
+ * 对比上一个程序，可以用synchronized解决， synchronized既保证原子性，又保证可见性；
+ * 而volatile只保证可见性
  * @author MarkShen
  *
  */
 public class T {
 	/*volatile*/ int count = 0;
-	void m() {
+	synchronized void m() {
 		for (int i = 0; i < 10000; i++) {
 			count ++;
 		}

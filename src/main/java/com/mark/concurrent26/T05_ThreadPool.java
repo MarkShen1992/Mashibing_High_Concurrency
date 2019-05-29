@@ -5,13 +5,13 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * 固定线程个数的线程池
  * @author MarkShen
- *
  */
 public class T05_ThreadPool {
 	public static void main(String[] args) throws InterruptedException {
 		// 固定的
-		ExecutorService service = Executors.newFixedThreadPool(5);
+		ExecutorService service = Executors.newFixedThreadPool(9);
 		for (int i = 1; i <= 10; i ++) {
 			service.execute(()->{
 				try {
