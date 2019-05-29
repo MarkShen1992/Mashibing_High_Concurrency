@@ -11,7 +11,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 写一个固定容量同步容器， 拥有put,get方法，以及getCount方法
  * 能够支持2个生产线程， 10个消费线程的阻塞调用
  * 
- * 使用wait和notify/notifyAll来实现
  * Effective Java: wait 往往与 while一起使用
  * 
  * 使用Lock和Condition来实现

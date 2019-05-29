@@ -5,13 +5,10 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * reentrantlock用于代替synchronized
- * 本例中由于m1锁定this, 只有m1执行完毕的时候， m2才能执行
- * 这里是复制synchronized最原始的语义
- * 
  * 使用reentrantlock可以完成相同的功能
  * 需要注意的是，必须要必须要必须要手动释放锁
- * 使用synchronized锁定的话如果遇到异常，JVM会自动释放锁，但是lock必须手动释放锁， 因此经常在finally中进行锁的释放
+ * 使用synchronized锁定的话如果遇到异常，JVM会自动释放锁，但是lock必须手动释放锁，
+ * 因此经常在finally中进行锁的释放
  * @author MarkShen
  *
  */
@@ -32,7 +29,7 @@ public class ReentrantLock2 {
 		
 	}
 	
-	synchronized void m2() {
+	void m2() {
 		lock.lock();
 		System.out.println("m2......");
 		lock.unlock();

@@ -9,7 +9,8 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * 写时复制容器 copy on write
  * 多线程下，写效率低， 读效率高
- * 适合写少读多的情况
+ *
+ * 应用场景：适合写少读多的情况
  * 
  * @author MarkShen
  *

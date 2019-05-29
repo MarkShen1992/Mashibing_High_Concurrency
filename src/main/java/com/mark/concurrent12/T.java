@@ -38,7 +38,7 @@ public class T {
 	 * 遍内存中的running变量。
 	 */
 	// volatile 解决了线程间的可见性（观察者模式）
-	/*volatile*/ boolean running = true;  // 对比一下有无volatile情况下， 整个程序运行的结果
+	volatile boolean running = true;  // 对比一下有无volatile情况下， 整个程序运行的结果
 	void m() {
 		System.out.println("m start");
 		while(running) {

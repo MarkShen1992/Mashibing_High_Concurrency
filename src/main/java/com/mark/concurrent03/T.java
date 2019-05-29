@@ -1,7 +1,8 @@
 package com.mark.concurrent03;
 
 /**
- * synchronized 对方法加锁
+ * synchronized 对对象加锁
+ * 加锁位置：堆内存对象
  * @author MarkShen
  *
  */

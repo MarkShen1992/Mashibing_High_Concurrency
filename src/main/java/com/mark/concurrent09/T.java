@@ -8,8 +8,10 @@ import java.util.concurrent.TimeUnit;
  * @author MarkShen
  *
  */
-public class T {
-	synchronized void m1() {
+public class T implements Runnable {
+
+	@Override
+	public synchronized void run() {
 		System.out.println("m1 start...");
 		try {
 			TimeUnit.SECONDS.sleep(1);
@@ -26,5 +28,10 @@ public class T {
 			e.printStackTrace();
 		}
 		System.out.println("m2");
+	}
+
+	public static void main(String[] args) {
+		T t = new T();
+		new Thread(t::run).start();
 	}
 }
