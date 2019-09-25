@@ -17,7 +17,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 对比两种方式，Condition的方式可以更加精确的指定哪些线程被唤醒
  * 
  * @author MarkShen
- *
  */
 public class MyContainer2<T> {
 	

@@ -8,7 +8,16 @@
 - 写一个程序证明AtomXXX类的多个方法并不构成原子性。
 - 写一个程序模拟死锁。
 - 写一个程序，在main线程中启动100个线程，100个线程完成后，主线程打印完成。使用join和CountDownLatch都可以完成。
+- 如何设计高效游戏服务器的架构。
+- synchronize和reentrantlock区别。
 
-相关视频：
-
-[concurrent1-19](https://v.qq.com/x/page/x052229kmeq.html)
+  - 完成和synchronized一样的功能
+  
+  - 比synchronize灵活
+    
+    - tryLock
+    - tryLock可指定时间
+    - lockInterruptly()
+    - 指定锁为公平锁
+    
+  - 多查Java API

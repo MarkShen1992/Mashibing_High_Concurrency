@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
  *
  */
 public class ThreadLocal2 {
-	// 每个线程各放一份，修改只改自己的一份
+	// 每个线程各放一份，修改只改自己的一份， 不会是别人的一份，以空间换时间，效率更高
 	static ThreadLocal<Person> tl = new ThreadLocal<>();
 	public static void main(String[] args) {
 		new Thread(() -> {

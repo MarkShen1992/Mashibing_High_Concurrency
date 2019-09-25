@@ -5,7 +5,6 @@ import java.util.concurrent.TimeUnit;
 /**
  * 
  * @author MarkShen
- *
  */
 public class ThreadLocal1 {
 	volatile static Person p = new Person();

@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
  * 这里是复制synchronized最原始的语义
  * 
  * @author MarkShen
- *
  */
 public class ReentrantLock1 {
 	synchronized void m1() {
@@ -18,7 +17,7 @@ public class ReentrantLock1 {
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
-			System.out.println(i);
+			System.out.println(Thread.currentThread().getName() + i);
 		}
 	}
 	

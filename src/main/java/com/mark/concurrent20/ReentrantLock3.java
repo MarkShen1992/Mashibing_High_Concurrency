@@ -9,7 +9,6 @@ import java.util.concurrent.locks.ReentrantLock;
  * 线程可以决定是否继续等待
  *
  * @author MarkShen
- *
  */
 public class ReentrantLock3 {
 	Lock lock = new ReentrantLock();

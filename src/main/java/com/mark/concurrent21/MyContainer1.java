@@ -26,7 +26,7 @@ public class MyContainer1<T> {
 			 * 两个以上线程的时候
 			 */
 			try {
-				this.wait();
+				this.wait();  // 释放锁
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

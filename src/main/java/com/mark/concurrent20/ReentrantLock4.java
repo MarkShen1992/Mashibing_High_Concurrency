@@ -53,6 +53,6 @@ public class ReentrantLock4 {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		t2.interrupt();
+		t2.interrupt(); // Interrupts this thread.
 	}
 }

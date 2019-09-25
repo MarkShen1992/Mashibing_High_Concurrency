@@ -26,3 +26,30 @@
 同学们如果真的要为自己的理想拼命的话，必须好好锻炼身体。清华的口号是“为祖国健康工作50年”。所以清华的体育课之所以要求那么高、那么严格，就是逼着大家好好锻炼身体。现在，我们班今年有20个人报名参加北京国际马拉松（全国报名的大学生只有5000人，清华就有3000人）——一是为了体验一下，二是对自己的耐力很有信心。推荐大家多练习长跑，最好每天跑个1000米。相信吧，等你们到了一流大学需要熬夜做研究的时候，你们将会发现自己大学打下的身体健康根基是多么重要。
 
 **Don't count the days, make each day count.**
+
+
+
+相关视频：
+
+[第一讲 concurrent1-19](https://v.qq.com/x/page/x052229kmeq.html)
+
+[第二讲 concurrent20-22](https://v.qq.com/x/page/f05224z6ul9.html)
+
+[第三讲 concurrent23-25](https://v.qq.com/x/page/z0522fzc1q3.html)
+
+[第四讲 concurrent26](https://v.qq.com/x/page/u0522rgqjyk.html)
+
+高并发编程三大块：
+
+- 同步器(synchronizer)
+- 同步容器
+- 线程池
+- Executor
+- Future
+- Callable
+
+框架
+
+- [disruptor](https://github.com/LMAX-Exchange/disruptor)
+- [netty](https://netty.io/)
+
