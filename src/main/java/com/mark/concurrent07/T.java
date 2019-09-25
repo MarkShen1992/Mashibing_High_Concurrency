@@ -5,7 +5,6 @@ package com.mark.concurrent07;
  * 在执行m1的过程之中，能否执行m2?
  * 同步方法执行时， 非同步方法可以执行
  * @author MarkShen
- *
  */
 public class T {
 
@@ -36,5 +35,21 @@ public class T {
 		
 //		new Thread(t::m1, "t1").start();
 //		new Thread(t::m2, "t2").start();
+
+		/**
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				t.m1();
+			}
+		}).start();
+
+		new Thread(new Runnable() {
+			@Override
+			public void run() {
+				t.m2();
+			}
+		}).start();
+		 */
 	}
 }

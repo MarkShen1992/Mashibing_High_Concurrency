@@ -10,7 +10,6 @@ package com.mark.concurrent18;
  * jetty open source software.
  * 
  * @author MarkShen
- *
  */
 public class T {
 	

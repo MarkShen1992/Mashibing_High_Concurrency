@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
  *
  * 这里是继承中可能发生的情形，子类调用父类的同步方法， 锁定同一对象
  * @author MarkShen
- *
  */
 public class T {
 	synchronized void m1() {

@@ -3,7 +3,6 @@ package com.mark.concurrent06;
 /**
  * synchronized 对对象加锁
  * @author MarkShen
- *
  */
 public class T implements Runnable {
 

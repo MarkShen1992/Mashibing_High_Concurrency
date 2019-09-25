@@ -1,9 +1,9 @@
 package com.mark.concurrent02;
 
 /**
- * synchronized 对当前对象加锁
+ * synchronized关键字
+ * 对当前对象加锁
  * @author MarkShen
- *
  */
 public class T {
 

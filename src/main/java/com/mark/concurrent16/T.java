@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
  * 同步代码中的语句越少越好
  * 比较m1和m2
  * @author MarkShen
- *
  */
 public class T {
 	

@@ -11,10 +11,13 @@ import java.util.concurrent.TimeUnit;
  * 当个数到5个时，线程2给出提示并结束
  * 
  * 添加volatile，使t2可以得到通知， 但是，t2线程的死循环很浪费CPU, 如果不用死循环该怎么做？
- * 面试题要比你的竞争者好， 比别人牛
+ * 面试题要比你的竞争者好， 比别人牛，面试不是及格就好，面试要拿到100分，110分，120分。总之，要与众不同
  * 怎么展现自己（重要）
- * @author MarkShen
  *
+ * 问题：
+ * 不是很精确
+ * 浪费CPU资源
+ * @author MarkShen
  */
 public class MyContainer2 {
 	

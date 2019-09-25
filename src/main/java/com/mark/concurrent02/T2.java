@@ -3,7 +3,6 @@ package com.mark.concurrent02;
 /**
  * synchronized 对类加锁
  * @author MarkShen
- *
  */
 public class T2 implements Runnable {
 

@@ -33,7 +33,6 @@ import java.util.concurrent.TimeUnit;
  * 这时应该考虑使用CountDownLatch/cyclicbarrier/semaphore
  * 
  * @author MarkShen
- *
  */
 public class MyContainer5 {
 	

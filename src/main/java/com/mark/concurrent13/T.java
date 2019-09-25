@@ -6,8 +6,11 @@ import java.util.List;
 /**
  * volatile	并不能保证多个线程共同修改running变量时所带来的不一致问题，也就是说volatile不能
  * 代替synchronized运行下面的程序， 并分析结果。
- * @author MarkShen
  *
+ * volatile与synchronized关键字区别？
+ * volatile 只能保证可见性，效率高
+ * synchronized 既保证可见性，有保证原子性，效率低
+ * @author MarkShen
  */
 public class T {
 	volatile int count = 0;

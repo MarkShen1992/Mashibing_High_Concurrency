@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
  * 应该避免将锁定对象的引用变成另外的对象
  * 锁在堆内存new出来的对象
  * @author MarkShen
- *
  */
 public class T {
 	

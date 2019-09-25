@@ -1,9 +1,8 @@
 package com.mark.concurrent05;
 
 /**
- * synchronized 对对象加锁
+ * 分析下输出结果
  * @author MarkShen
- *
  */
 public class T implements Runnable {
 

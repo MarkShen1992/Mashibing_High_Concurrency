@@ -4,7 +4,6 @@ package com.mark.concurrent03;
  * synchronized 对对象加锁
  * 加锁位置：堆内存对象
  * @author MarkShen
- *
  */
 public class T {
 

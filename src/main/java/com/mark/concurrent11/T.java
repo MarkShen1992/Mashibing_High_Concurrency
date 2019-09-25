@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
  * 在第一个线程中抛出异常， 其他线程就会进入同步代码区， 有可能会访问到异常产生时的数据。
  * 因此， 要非常小心处理同步业务中的异常
  * @author MarkShen
- *
  */
 public class T {
 	int count = 0;

@@ -24,7 +24,6 @@ import java.util.concurrent.TimeUnit;
  * 
  * notify之后，t1必须释放锁， t2退出后，也必须notify, 通知t1继续执行， 整个通信过程比较繁琐
  * @author MarkShen
- *
  */
 public class MyContainer4 {
 	

@@ -12,7 +12,6 @@ import java.util.concurrent.TimeUnit;
  * 
  * 分析下面的程序，能完成这个功能吗？
  * @author MarkShen
- *
  */
 public class MyContainer1 {
 	

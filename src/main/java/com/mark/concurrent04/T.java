@@ -1,9 +1,9 @@
 package com.mark.concurrent04;
 
 /**
- * synchronized 对对象加锁
+ * synchronized
+ * 对对象加锁
  * @author MarkShen
- *
  */
 public class T {
 
