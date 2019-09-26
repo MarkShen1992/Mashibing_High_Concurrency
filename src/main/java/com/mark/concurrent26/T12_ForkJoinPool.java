@@ -92,7 +92,8 @@ public class T12_ForkJoinPool {
 
 //		long result = task.join();
 //		System.out.println(result);
-		
+
+		fjp.shutdown();
 		System.in.read();
 	}
 }
