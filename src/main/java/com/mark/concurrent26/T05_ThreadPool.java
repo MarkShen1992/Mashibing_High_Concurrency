@@ -24,7 +24,8 @@ public class T05_ThreadPool {
 		}
 		
 		System.out.println(service);
-		
+
+		// 关闭线程池
 		service.shutdown();
 		System.out.println(service.isTerminated());
 		System.out.println(service.isShutdown());

@@ -14,7 +14,6 @@ import java.util.concurrent.RecursiveTask;
  * 使用场景：大规模数据计算
  * 思路：多线程排序
  * @author MarkShen
- *
  */
 public class T12_ForkJoinPool {
 	static int[] nums = new int[1000000];
@@ -22,7 +21,7 @@ public class T12_ForkJoinPool {
 	static Random r = new Random();
 	
 	static {
-		for (int i=0; i<nums.length; i++) {
+		for (int i = 0; i < nums.length; i ++) {
 			nums[i] = r.nextInt(100);
 		}
 		System.out.println(Arrays.stream(nums).sum());
@@ -54,7 +53,6 @@ public class T12_ForkJoinPool {
 				subTask2.fork();
 			}
 		}
-
 	}
 	
 //	static class AddTask extends RecursiveTask<Long> {
@@ -85,7 +83,6 @@ public class T12_ForkJoinPool {
 //
 //			return subTask1.join() + subTask2.join();
 //		}
-//
 //	}
 	
 	public static void main(String[] args) throws InterruptedException, IOException {

@@ -13,7 +13,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * 应用场景：适合写少读多的情况
  * 
  * @author MarkShen
- *
  */
 public class T02_CopyOnWriteList {
 	

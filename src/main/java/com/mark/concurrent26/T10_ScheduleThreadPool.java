@@ -8,9 +8,8 @@ import java.util.concurrent.TimeUnit;
 /**
  * 定时任务线程池
  * @author MarkShen
- *
  */
-public class T10_SchedulePool {
+public class T10_ScheduleThreadPool {
 	public static void main(String[] args) throws InterruptedException {
 		ScheduledExecutorService service = Executors.newScheduledThreadPool(4);
 		service.scheduleAtFixedRate(()->{

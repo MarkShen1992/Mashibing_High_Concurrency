@@ -7,6 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 非常常用
+ * Queue分两种：
+ *
  * @author MarkShen
  */
 public class T05_LinkedBlockingQueue {

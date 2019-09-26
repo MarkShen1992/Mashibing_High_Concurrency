@@ -1,6 +1,7 @@
 package com.mark.concurrent24;
 
 import java.util.Vector;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 有n张火车票，每张票都有一编号

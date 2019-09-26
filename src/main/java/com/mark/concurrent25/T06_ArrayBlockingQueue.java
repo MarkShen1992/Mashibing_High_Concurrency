@@ -22,7 +22,7 @@ public class T06_ArrayBlockingQueue {
 		// strs.put("aaa"); // 满了就等待
 		strs.add("aaa");
 		// strs.offer("aaa");
-		// strs.offer("aaa", 1, TimeUnit.SECONDS);
+		// strs.offer("aaa", 1, TimeUnit.SECONDS); // 按时间段阻塞
 		
 		System.out.println(strs);
 	}

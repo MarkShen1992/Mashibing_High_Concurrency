@@ -7,7 +7,6 @@ package com.mark.concurrent26;
  * Executors
  *
  * @author MarkShen
- *
  */
 public class T04_Executors {
 	public static void main(String[] args) {

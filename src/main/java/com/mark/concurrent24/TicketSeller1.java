@@ -24,7 +24,7 @@ public class TicketSeller1 {
 		for (int i=0; i<10; i++) {
 			new Thread(() -> {
 				while(tickets.size() > 0) {
-					System.out.println("销售了--" + tickets.remove(0));
+					System.out.println("销售了--" + tickets.remove(0));  // remove方法非原子性
 				}
 			}).start();
 		}

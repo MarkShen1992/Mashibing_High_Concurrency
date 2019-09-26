@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
 /**
- * 重点内容
+ * 重点内容，重点掌握
  * @author MarkShen
  */
 public class T04_ConcurrentQueue {

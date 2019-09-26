@@ -35,11 +35,11 @@ import java.util.concurrent.CountDownLatch;
  * 	ArrayList
  * 	LinkedList
  * 	Collections.synchronizedXXX
- * 	CopyOnWrite
+ * 	CopyOnWriteList
  * 
  * 	高并发场景
- * 	ConcurrentLinkedQueue
- * 	BlockingQueue
+ * 	ConcurrentLinkedQueue // 非阻塞
+ * 	BlockingQueue         // 阻塞
  * 		LinkedBlockingQueue
  * 		ArrayBlockingQueue
  * 		TransferQueue
@@ -47,11 +47,11 @@ import java.util.concurrent.CountDownLatch;
  * 	DelayQueue：定时任务
  * 
  * @author MarkShen
- *
  */
 public class T01_ConcurrentMap {
 	
 	public static void main(String[] args) {
+		// 不同容器在多线程并发下的效率问题
 //		Map<String, String> map = new ConcurrentHashMap<>();
 //		Map<String, String> map = new ConcurrentSkipListMap<>();  // 高并发， 排序
 		

@@ -10,9 +10,8 @@ import java.util.concurrent.TimeUnit;
  * 写一个模拟程序
  * 
  * 分析下面程序可能产生那些问题?
- * 没有问题了
+ * 没有问题了，但效率不高
  * @author MarkShen
- *
  */
 public class TicketSeller3 {
 	static List<String> tickets = new ArrayList<String>();

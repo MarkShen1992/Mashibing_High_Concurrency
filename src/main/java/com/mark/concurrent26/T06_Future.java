@@ -9,7 +9,6 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @author MarkShen
- *
  */
 public class T06_Future {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
@@ -30,8 +29,6 @@ public class T06_Future {
 		});
 		
 		System.out.println(f.get());
-		// System.out.println(f.isDone());
-		// System.out.println(f.get());
 		// System.out.println(f.isDone());
 
 		// 结束线程

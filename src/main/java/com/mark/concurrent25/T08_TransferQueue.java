@@ -9,13 +9,13 @@ import java.util.concurrent.LinkedTransferQueue;
  * 1) 先启动消费者线程
  * 2) 先启动生产者线程
  * @author MarkShen
- *
  */
 public class T08_TransferQueue {
 
 	public static void main(String[] args) throws InterruptedException {
 		LinkedTransferQueue<String> strs = new LinkedTransferQueue<>();
-		
+
+		// 先启动消费者线程
 		new Thread(() -> {
 			try {
 				System.out.println(strs.take());
@@ -25,7 +25,11 @@ public class T08_TransferQueue {
 		}).start();
 		
 		strs.transfer("aaa");
-		
+		// strs.add("aaa");
+		// strs.offer("aaa");
+		// strs.put("aaa");
+
+		// 后启动消费者线程会发生阻塞
 //		new Thread(() -> {
 //			try {
 //				System.out.println(strs.take());

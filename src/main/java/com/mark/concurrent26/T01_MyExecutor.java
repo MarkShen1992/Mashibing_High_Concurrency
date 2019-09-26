@@ -5,7 +5,6 @@ import java.util.concurrent.Executor;
 /**
  * Executor接口
  * @author MarkShen
- *
  */
 public class T01_MyExecutor implements Executor {
 

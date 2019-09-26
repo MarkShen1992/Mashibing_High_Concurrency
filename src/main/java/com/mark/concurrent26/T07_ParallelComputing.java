@@ -9,9 +9,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 /**
- * 并行计算
+ * 线程池：并行计算
  * @author MarkShen
- *
  */
 public class T07_ParallelComputing {
 	public static void main(String[] args) throws InterruptedException, ExecutionException {
@@ -25,7 +24,7 @@ public class T07_ParallelComputing {
 
 		ExecutorService service = Executors.newFixedThreadPool(cpuCoreNum + 1);
 
-		// 为什么不平均分呢？
+		// 为什么不平均分呢？ 跟素数计算有关系
 		MyTask t1 = new MyTask(1, 80000);
 		MyTask t2 = new MyTask(80001, 130000);
 		MyTask t3 = new MyTask(130001, 170000);
@@ -43,6 +42,11 @@ public class T07_ParallelComputing {
 		f4.get();
 		end = System.currentTimeMillis();
 		System.out.println(end - start);
+
+		// 关闭线程池
+		service.shutdown();
+		System.out.println(service.isShutdown());
+		System.out.println(service.isTerminated());
 	}
 
 	static List<Integer> getPrime(int start, int end) {

@@ -9,9 +9,9 @@ import java.util.concurrent.TimeUnit;
 /**
  * 用于执行定时任务
  * @author MarkShen
- *
  */
 public class T07_DelayQueue {
+	// 排好顺序的，等待时间最长的被先拿出去
 	static BlockingQueue<MyTask> tasks = new DelayQueue<>(); // 无界队列， 线程池里装的都是一个一个的任务
 
 	static Random r = new Random();

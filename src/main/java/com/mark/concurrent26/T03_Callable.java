@@ -8,7 +8,6 @@ import java.util.concurrent.FutureTask;
  * https://blog.csdn.net/qq_27258799/article/details/51451143
  * https://www.cnblogs.com/frinder6/p/5507082.html
  * @author MarkShen
- *
  */
 public class T03_Callable implements Callable<String> {
 

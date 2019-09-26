@@ -1,4 +1,4 @@
-Executor
+Executor：执行任务
 ExecutorService
 Callable(exist return value) = Runnable(non-return value)
 Executors: 工具类，类似工具类：Arrays, Collections
@@ -23,8 +23,8 @@ NCPU利用率希望是100%那么也就是1，总体程序最佳的线程数应�
 作中，设置404个线程明显不能带来性能的优势，这么多线程数只会增加上下文来回切换带来更严重的性能问
 题。
 
+重点配置：
 如果你的程序是计算密集型的并且没有IO操作，那么建议线程数设置为cpu核数+1，减少上下文切换。
-
 如果你的程序是IO密集型的（包括网络连接等待），那么可以按照 Nthreads = NCPU * UCPU * (1 + W/C)
 计算线程数.
 
