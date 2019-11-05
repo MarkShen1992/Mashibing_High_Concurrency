@@ -53,21 +53,35 @@ public class Chapter0200Introduction {
          *          父类引用指向子类对象
          *
          * 对象和引用
+         *      引用：Java语言中除基本类型之外的变量类型都称为引用类型。
+         *      Java堆内存中的对象是通过栈内存中的引用对其操作的
+         *      占两块儿内存，堆内存，栈内存
+         *
          * Java类的定义
          * 构造函数
+         *      public 类名() {}
+         *      new 一个东西的时候要调用的方法，叫做构造方法。
+         *      一旦你自己重写构造方法，那么Java 编译器将不会为这个类添加默认的构造方法
+         *      所以，我们在new对象的时候，我们要做到的就是把那个无参的构造方法
+         *      手动加上
+         *
          * 对象的创建和使用
+         *      Object o = new Object();
+         *      o.equals(new Object);
+         *
          * this 关键字
+         * super 关键字
          * static 关键字
          * package import 关键字
          * 访问控制 public protected private 友好
-         * 类的继承
-         * 方法的重写
+         * 类的继承 extends
+         * 方法的重写 @Override
          * final 关键字
          * Object 类
          * 对象转型
          * 多态
-         * 抽象类
-         * 接口
+         * 抽象类 Abstract
+         * 接口 interface implements
          */
     }
 }
