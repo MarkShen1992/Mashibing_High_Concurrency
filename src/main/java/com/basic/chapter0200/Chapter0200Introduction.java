@@ -70,9 +70,18 @@ public class Chapter0200Introduction {
          *      o.equals(new Object);
          *
          * this 关键字
+         *      当前对象
+         *      this(String...) 对应的构造方法
+         *      this.methodName 本类方法
+         *
          * super 关键字
+         *      调用父类的内容
+         *      super(String...) 对应父类构造函数
+         *      super.methodName 父类方法
+         *
          * static 关键字
-         * package import 关键字
+         * package 关键字
+         * import 关键字
          * 访问控制 public protected private 友好
          * 类的继承 extends
          * 方法的重写 @Override
