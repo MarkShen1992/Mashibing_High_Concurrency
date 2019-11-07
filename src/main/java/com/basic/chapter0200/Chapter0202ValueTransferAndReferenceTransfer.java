@@ -9,9 +9,9 @@ package com.basic.chapter0200;
  * @author MarkShen1992
  * @since 20191106
  */
-public class Chapter0202OO {
+public class Chapter0202ValueTransferAndReferenceTransfer {
     public static void main(String[] args) {
-        Chapter0202OO c = new Chapter0202OO();
+        Chapter0202ValueTransferAndReferenceTransfer c = new Chapter0202ValueTransferAndReferenceTransfer();
         int date = 9;
         BirthDate bd = new BirthDate(1970, 7, 7 );
         BirthDate bd2 = new BirthDate(2000, 1, 1);
