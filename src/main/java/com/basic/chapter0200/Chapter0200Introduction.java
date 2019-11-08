@@ -80,15 +80,32 @@ public class Chapter0200Introduction {
          *      super.methodName 父类方法
          *
          * static 关键字
+         *      类变量
+         *      类方法
+         *
          * package 关键字
+         *      根据业务分包
+         *      根据功能分包
+         *
          * import 关键字
+         *      引入别的类库
+         *
          * 访问控制 public protected private 友好
+         *
          * 类的继承 extends
          * 方法的重写 @Override
          * final 关键字
+         *      类似于C语言中的 const
+         *
          * Object 类
+         *      Java 根基类
+         *
          * 对象转型
          * 多态
+         *      存在继承关系
+         *      方法重写
+         *      父类引用指向子类对象
+         *
          * 抽象类 Abstract
          * 接口 interface implements
          */
