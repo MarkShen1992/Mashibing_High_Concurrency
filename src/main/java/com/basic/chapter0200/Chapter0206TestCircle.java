@@ -70,7 +70,7 @@ class Circle {
     }
 }
 
-public class TestCircle {
+public class Chapter0206TestCircle {
     public static void main(String args[]) {
         Circle c1 = new Circle(new Point2(1.0, 2.0), 2.0);
         Circle c2 = new Circle(5.0);
