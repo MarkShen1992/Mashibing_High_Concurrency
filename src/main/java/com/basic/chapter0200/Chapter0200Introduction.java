@@ -84,8 +84,12 @@ public class Chapter0200Introduction {
          *      类方法
          *
          * package 关键字
+         *      解决类名冲突的问题
+         *      命名：公司域名倒过来，默认为default包
+         *      包对应文件系统中的文件夹
          *      根据业务分包
          *      根据功能分包
+         *      如果向让别的人用你的类，首先要先用 import 关键字将其引入
          *
          * import 关键字
          *      引入别的类库
