@@ -95,8 +95,22 @@ public class Chapter0200Introduction {
          *      引入别的类库
          *
          * 访问控制 public protected private 友好
+         * 对于成员变量如下表：
+         * 修饰符       类内部     同一个包     子类      任何地方
+         * public        Y           N          N          N
+         * default       Y           Y          N          N
+         * protected     Y           Y          Y          N
+         * public        Y           Y          Y          Y
+         *
+         * 对于类来说
+         *  public：任何地方都可以使用这个类
+         *  default
          *
          * 类的继承 extends
+         *      特别注意下 protected 关键字
+         *      双亲委派机制
+         *      子类对象包含父类对象
+         *
          * 方法的重写 @Override
          * final 关键字
          *      类似于C语言中的 const
