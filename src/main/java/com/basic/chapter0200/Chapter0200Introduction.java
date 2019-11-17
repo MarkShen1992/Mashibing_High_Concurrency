@@ -112,11 +112,21 @@ public class Chapter0200Introduction {
          *      子类对象包含父类对象
          *
          * 方法的重写 @Override
+         *      从父类继承
+         *      相同的函数名称
+         *      相同的参数列表
+         *      相同的方法返回值
+         *      重写方法的时候要去父类copy, 也可以使用工具生成
+         *      重写的方法不可以使用比被重写方法更严格的访问权限
+         *
          * final 关键字
          *      类似于C语言中的 const
          *
          * Object 类
+         * https://docs.oracle.com/javase/8/docs/
          *      Java 根基类
+         *      多看JavaAPI
+         *      toString() 方法
          *
          * 对象转型
          * 多态
