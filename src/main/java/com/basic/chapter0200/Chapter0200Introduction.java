@@ -58,7 +58,7 @@ public class Chapter0200Introduction {
          *      占两块儿内存，堆内存，栈内存
          *
          * Java类的定义
-         * 构造函数
+         * 构造函数(析构函数)
          *      public 类名() {}
          *      new 一个东西的时候要调用的方法，叫做构造方法。
          *      一旦你自己重写构造方法，那么Java 编译器将不会为这个类添加默认的构造方法
@@ -121,6 +121,12 @@ public class Chapter0200Introduction {
          *
          * final 关键字
          *      类似于C语言中的 const
+         *      在内存中的 数据 区
+         *      被 final 修饰的变量不能被修改
+         *          成员变量
+         *          局部变量 (形参)
+         *      final 的方法不能被重写
+         *      final 的类不能被继承
          *
          * Object 类
          * https://docs.oracle.com/javase/8/docs/
@@ -149,8 +155,19 @@ public class Chapter0200Introduction {
          *      存在继承关系
          *      方法重写
          *      父类引用指向子类对象
+         *      实际中new的谁，就调用谁的方法，函数指针，动态绑定，核心中的核心
          *
          * 抽象类 Abstract
+         *      用 abstract 修饰的类为抽象类， 修饰的方法为 抽象方法
+         *      抽象方法没有必要实现
+         *
+         *      // 相当于 C ++ 中的纯虚函数
+         *      public abstract void method();
+         *      当一个类中有抽象方法的时候，那么这个类必须被声明为抽象类，抽象类
+         *      必须被继承，抽象方法必须被重写
+         *      抽象类不可以 new 出对象
+         *      抽象类只需声明，不需要实现
+         *
          * 接口 interface implements
          */
     }
