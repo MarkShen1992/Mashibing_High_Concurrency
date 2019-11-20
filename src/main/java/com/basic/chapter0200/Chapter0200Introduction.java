@@ -169,6 +169,53 @@ public class Chapter0200Introduction {
          *      抽象类只需声明，不需要实现
          *
          * 接口 interface implements
+         *      多个无关的类可以实现同一个接口
+         *      一个类可以实现多个无关的接口
+         *      与继承关系类似，接口与实现类之间存在多态性
+         *
+         *      接口是抽象方法和常量值的定义的集合，接口是一种特殊的抽象类，这种抽象类中
+         *      只包含常量和方法的定义，而没有变量和方法的实现。
+         *
+         *      public static final int id = 1;
+         *      为什么要定义成 public static final 吗？为了修正 c++ 中多继承时候，容易
+         *      出现问题的地方。c++ 的多继承容易出现：类的多个父类之间，如果有相同的成员
+         *      变量的时候，引用起来相当麻烦，运行时候产生各种各样的问题。
+         *
+         *      接口的特性：
+         *      1. 接口可以多重实现
+         *      2. 接口中声明的属性默认为 public static final 的，也只能是 public static final的
+         *      3. 接口中只能定义抽象方法，这些接口默认为 public 的，也只能是 public 的
+         *      4. 接口可以继承其他接口，并添加新的属性和成员方法
+         *
+         *      接口中定义的方法：函数指针
+         *
+         *
+         *      总结：
+         *          1. 内存分析贯穿始终
+         *          2. 对象和类的概念
+         *          3. 类（对象）之间的关系
+         *          4. 面向对象设计思想
+         *          5. class
+         *          6. new
+         *              引用的概念
+         *              构造方法的概念
+         *          7. 方法重载
+         *              构造方法重载
+         *          8. this
+         *          9. static
+         *          10. package & import
+         *          11. private default protected public
+         *          12. extends
+         *          13. override
+         *          14. final
+         *          15. Object
+         *               toString
+         *               equals
+         *          16. upcasting downcasting
+         *          17. Polymorphism/dynamic binding/late
+         *          18. abstract class
+         *          19. interface
+         *               implements
          */
     }
 }
