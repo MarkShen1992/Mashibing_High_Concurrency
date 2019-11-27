@@ -13,7 +13,20 @@ public class chapter0501CommonUseClass {
         /**
          *
          */
-        String s = "asjdasjdafsakjdfasj,asjfdlkadj";
-        System.out.println(s.split(",")[0]);
+        String s1 = "hello";
+        String s2 = "world";
+        String s3 = "hello";
+        System.out.println(s1 == s3);
+
+        String s4 = "he" + "llo";
+        System.out.println(s3 == s4);
+
+        String s5 = new String("hello");
+        System.out.println(s3 == s5);
+        System.out.println(s3.equals(s5));
+
+        String s6 = new String("he");
+        String s7 = s6 + "llo";
+        System.out.println(s3 == s7);
     }
 }
