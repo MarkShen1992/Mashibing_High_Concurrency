@@ -8,7 +8,7 @@ package com.basic.chapter0500;
  * File类
  * 枚举类
  */
-public class chapter0501CommonUseClass {
+public class Chapter0501CommonUseClass {
     public static void main(String[] args) {
         /**
          *

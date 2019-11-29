@@ -6,7 +6,7 @@ package com.basic.chapter0500;
  * @author MarkShen
  * @since 20191127
  */
-public class chapter0502TestString2 {
+public class Chapter0502TestString2 {
     public static void main(String[] args) {
         String s1 = "Sun java", s2 = "sun Java";
         System.out.println(s1.charAt(1));
