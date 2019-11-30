@@ -13,5 +13,6 @@ public class Chapter0508TestMath {
         // Math 中的方法，请多查看Java API进行查询
         System.out.println(Math.max(1, 3));
         // 计算机中时间存储：从1970年1月1日0时0分0秒0毫秒 到 目前为止的毫秒数
+        // 效率比较高
     }
 }
