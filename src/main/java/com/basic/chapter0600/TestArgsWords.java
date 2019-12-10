@@ -3,7 +3,7 @@ package com.basic.chapter0600;
 import java.util.*;
 
 public class TestArgsWords {
-    //private static final Integer ONE = new Integer(1);
+    // private static final Integer ONE = new Integer(1);
     private static final int ONE = 1;
 
     public static void main(String args[]) {
