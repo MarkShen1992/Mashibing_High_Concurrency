@@ -2,6 +2,12 @@ package com.basic.chapter0600;
 
 import java.util.*;
 
+/**
+ * key-value
+ *
+ * @author MarkShen
+ * @since 20191211
+ */
 public class TestMap {
     public static void main(String args[]) {
         Map m1 = new HashMap();
