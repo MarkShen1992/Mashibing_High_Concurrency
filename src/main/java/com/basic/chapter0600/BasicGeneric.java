@@ -13,6 +13,11 @@ public class BasicGeneric {
             String s = c.get(i);
             System.out.println(s);
         }
+        c.add(1,"insert");
+        System.out.println();
+        for (String s : c) {
+            System.out.println(s);
+        }
 
         Collection<String> c2 = new HashSet<String>();
         c2.add("aaa");

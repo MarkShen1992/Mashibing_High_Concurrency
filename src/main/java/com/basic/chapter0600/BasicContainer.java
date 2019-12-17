@@ -60,11 +60,12 @@ class Name implements Comparable {
      * 使用场景：
      * 当这个对象用在Map接口里里面作为 key 的时候需要用到 hashCode().
      * 相等的对象应该具有享同的hash code, 非常适合做 索引。对象作为索引的时候
-     *
+     * <p>
      * 原则：重写一个对象的 equals方法时，必须同时重写 hashCode方法
      * 两个对象 equals，两个对象必须拥有相同的 hashcode.
-     *
+     * <p>
      * 扩展：hashcode算法
+     *
      * @return
      */
     public int hashCode() {
