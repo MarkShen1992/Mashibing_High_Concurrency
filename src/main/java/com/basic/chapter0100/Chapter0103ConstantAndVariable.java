@@ -20,7 +20,7 @@ public class Chapter0103ConstantAndVariable {
         // 不可变的变量，类似于C语言中的 const 修饰的量，与Java中的 final 对应
         final int var = 10;
         float PI = 3.14f;
-        
+
 
         // 下面注释掉的这句话会有编译错误
         // var = 12;
