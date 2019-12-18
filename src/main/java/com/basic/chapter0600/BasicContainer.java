@@ -74,11 +74,8 @@ class Name implements Comparable {
 
     public int compareTo(Object o) {
         Name n = (Name) o;
-        int lastCmp =
-                lastName.compareTo(n.lastName);
-        return
-                (lastCmp != 0 ? lastCmp :
-                        firstName.compareTo(n.firstName));
+        int lastCmp = lastName.compareTo(n.lastName);
+        return lastCmp != 0 ? lastCmp : firstName.compareTo(n.firstName);
     }
 
 }
