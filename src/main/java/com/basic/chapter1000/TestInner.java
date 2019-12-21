@@ -1,10 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ��ڲ������¼������е�ʹ��
- * 	Դ�ļ����ƣ�TestInner.java
- *	Ҫ  �㣺
- *  	1. �ڲ�������ʺ��÷�
- *		2. ���������ඨ��Ϊ��ͨ�ڲ���ĺô�----
- *		   �ڲ����п�ֱ�ӷ������������Ժͷ���
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 import java.awt.event.*;

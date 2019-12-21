@@ -1,7 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�GridLayoutӦ�þ���
- * 	Դ�ļ����ƣ�TestGridLayout
- *	Ҫ  �㣺GridLayout���ֹ����������ʼ��÷�
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 public class TestGridLayout {

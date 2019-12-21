@@ -12,7 +12,7 @@ public class TestThread5 {
         }
         
         for(int i=0;i<50;i++){
-        	System.out.println("���߳�:" + i);
+        	System.out.println("main thread:" + i);
         }
     }
 }

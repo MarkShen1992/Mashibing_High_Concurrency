@@ -1,7 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�BorderLayoutӦ�þ���
- * 	Դ�ļ����ƣ�TestBorderLayout.java
- *	Ҫ  �㣺FlowLayout���ֹ����������ʼ��÷�
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 public class TestBorderLayout {

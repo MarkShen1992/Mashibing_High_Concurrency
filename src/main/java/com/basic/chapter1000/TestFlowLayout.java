@@ -1,9 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�FlowLayout �÷�����
- * 	Դ�ļ����ƣ�TestFlowLayout.java
- *	Ҫ  �㣺
- *		1. ���ֹ������ĸ��������
- *   	2. FlowLayout�����ʼ��÷�
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 

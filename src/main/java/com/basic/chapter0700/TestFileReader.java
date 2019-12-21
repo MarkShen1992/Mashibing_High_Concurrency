@@ -15,9 +15,9 @@ public class TestFileReader {
       }
       fr.close();
     } catch (FileNotFoundException e) {
-      System.out.println("�Ҳ���ָ���ļ�");
+      System.out.println("找不到指定文件");
     } catch (IOException e) {
-      System.out.println("�ļ���ȡ����");
+      System.out.println("文件读取错误");
     }
 
   }

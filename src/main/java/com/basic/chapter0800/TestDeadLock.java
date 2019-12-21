@@ -40,6 +40,5 @@ System.out.println("flag=" + flag);
 		Thread t2 = new Thread(td2);
 		t1.start();
 		t2.start();
-		
 	}
 }

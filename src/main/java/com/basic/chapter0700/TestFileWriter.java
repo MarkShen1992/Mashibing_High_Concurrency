@@ -12,7 +12,7 @@ public class TestFileWriter {
       fw.close();
     } catch (IOException e1) {
     	e1.printStackTrace();
-      System.out.println("�ļ�д�����");
+      System.out.println("文件写入错误");
       System.exit(-1);
     }
   }

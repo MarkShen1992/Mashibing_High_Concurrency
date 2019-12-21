@@ -1,7 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�Frame Ӧ�þ���
- * 	Դ�ļ����ƣ�TestFrame.java
- *	Ҫ  �㣺Frame����Ĵ�������ʾ����
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 public class TestFrame {

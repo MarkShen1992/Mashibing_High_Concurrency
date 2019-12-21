@@ -1,10 +1,4 @@
-package com.basic.chapter0900;/*	�������ƣ��򵥵�client/server����
- * 	Դ�ļ����ƣ�TestClient.java/TestServer.java
- *	Ҫ  �㣺
- *		1. Java Socket��̲���
- *		2. Socket/ServerSocket���÷�
- *		3. ͨ��Socket������Ի�ȡͨ�ŶԷ�Socket����Ϣ
- */
+package com.basic.chapter0900;
 import java.net.*;
 import java.io.*;
 

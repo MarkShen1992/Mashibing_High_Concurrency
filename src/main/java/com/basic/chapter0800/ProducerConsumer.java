@@ -34,7 +34,7 @@ class SyncStack {
 				e.printStackTrace();
 			}
 		}
-		this.notifyAll();	// ���������ڸö����ϵ��߳�	
+		this.notifyAll();	// 叫醒所有在该对象上的线程
 		arrWT[index] = wt;
 		index ++;
 	}
@@ -63,7 +63,7 @@ class Producer implements Runnable {
 		for(int i=0; i<20; i++) {
 			WoTou wt = new WoTou(i);
 			ss.push(wt);
-System.out.println("�����ˣ�" + wt);
+System.out.println("生产了：" + wt);
 			try {
 				Thread.sleep((int)(Math.random() * 200));
 			} catch (InterruptedException e) {
@@ -82,7 +82,7 @@ class Consumer implements Runnable {
 	public void run() {
 		for(int i=0; i<20; i++) {
 			WoTou wt = ss.pop();
-System.out.println("������: " + wt);
+System.out.println("消费了: " + wt);
 			try {
 				Thread.sleep((int)(Math.random() * 1000));
 			} catch (InterruptedException e) {

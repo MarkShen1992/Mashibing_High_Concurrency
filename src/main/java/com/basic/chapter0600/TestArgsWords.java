@@ -2,6 +2,14 @@ package com.basic.chapter0600;
 
 import java.util.*;
 
+/**
+ * 参数中每个单词出现的次数
+ * auto-boxing
+ * auto-unboxing
+ *
+ * @author MarkShen
+ * @since 20191221
+ */
 public class TestArgsWords {
     // private static final Integer ONE = new Integer(1);
     private static final int ONE = 1;

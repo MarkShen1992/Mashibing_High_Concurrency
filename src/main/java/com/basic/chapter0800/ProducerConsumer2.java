@@ -54,7 +54,7 @@ class Producer2 implements Runnable {
         for (int i = 0; i < 20; i++) {
             char c = (char) (Math.random() * 26 + 'A');
             stack.push(c);
-            System.out.println("produced��" + c);
+            System.out.println("produced: " + c);
             try {
                 Thread.sleep((int) (Math.random() * 1000));
             } catch (InterruptedException e) {
@@ -74,7 +74,7 @@ class Consumer2 implements Runnable {
     public void run() {
         for (int i = 0; i < 20; i++) {
             char c = stack.pop();
-            System.out.println("���ѣ�" + c);
+            System.out.println("consumed: " + c);
             try {
                 Thread.sleep((int) (Math.random() * 1000));
             } catch (InterruptedException e) {

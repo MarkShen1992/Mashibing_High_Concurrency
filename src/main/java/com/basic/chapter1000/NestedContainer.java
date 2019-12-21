@@ -1,7 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�������Ƕ��ʹ�þ���
- * 	Դ�ļ����ƣ�NestedContainer.java
- *	Ҫ  �㣺Ƕ�׵Ķ���������Էֱ���ò�ͬ�Ĳ��ֹ�����
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 

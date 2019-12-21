@@ -1,9 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ����������¼������е�ʹ��
- * 	Դ�ļ����ƣ�TestAnonymous2.java
- *	Ҫ  �㣺
- *		1. ������ֻ�����ڲ���
- *		2. ����������ִ�����ʽ----�ȿ��Լ̳и��ࡢҲ���Ե���ʵ�ֽӿ�
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 import java.awt.event.*;
