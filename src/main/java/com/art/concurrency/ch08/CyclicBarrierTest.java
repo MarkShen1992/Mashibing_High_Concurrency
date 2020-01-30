@@ -1,13 +1,16 @@
-package com.art.concurency.ch08;
+package com.art.concurrency.ch08;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
 
-public class CyclicBarrierTest03 {
+/**
+ * CyclicBarrier 可用于多线程计算数据，最后合并计算结果的场景。
+ */
+public class CyclicBarrierTest {
     static CyclicBarrier cyclicBarrier = new CyclicBarrier(2);
 
-    public static void main(String[] args) {
-        Thread t = new Thread(new Runnable() {
+    public static void main(String[] args) throws BrokenBarrierException, InterruptedException {
+        new Thread(new Runnable() {
             @Override
             public void run() {
                 try {
@@ -17,14 +20,11 @@ public class CyclicBarrierTest03 {
                 } catch (BrokenBarrierException e) {
                     e.printStackTrace();
                 }
+                System.out.println(1);
             }
-        });
-        t.start();
-        t.interrupt();
-        try {
-            cyclicBarrier.await();
-        } catch (Exception e) {
-            System.out.println(cyclicBarrier.isBroken());
-        }
+        }).start();
+
+        cyclicBarrier.await();
+        System.out.println(2);
     }
 }

@@ -1,4 +1,4 @@
-package com.art.concurency.ch04;
+package com.art.concurrency.ch04;
 
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;

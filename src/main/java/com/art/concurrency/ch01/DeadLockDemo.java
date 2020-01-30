@@ -1,4 +1,4 @@
-package com.art.concurency.ch01;
+package com.art.concurrency.ch01;
 
 public class DeadLockDemo {
     private static String A = "A";

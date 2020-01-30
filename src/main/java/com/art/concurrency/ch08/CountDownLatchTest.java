@@ -1,4 +1,4 @@
-package com.art.concurency.ch08;
+package com.art.concurrency.ch08;
 
 import java.util.concurrent.CountDownLatch;
 

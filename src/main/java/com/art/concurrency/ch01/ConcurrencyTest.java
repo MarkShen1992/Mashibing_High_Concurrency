@@ -1,4 +1,4 @@
-package com.art.concurency.ch01;
+package com.art.concurrency.ch01;
 
 /**
  * 1. 循环次数
