@@ -57,7 +57,7 @@ public class MyContainer4 {
 				lock.notify();
 				System.out.println("t2 结束");
 			}
-		}, "2").start();
+		}, "t2").start();
 		
 		try {
 			TimeUnit.SECONDS.sleep(1);

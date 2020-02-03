@@ -53,7 +53,7 @@ public class MyContainer3 {
 				}
 				System.out.println("t2 结束");
 			}
-		}, "t1").start();
+		}, "t2").start();
 		
 		try {
 			TimeUnit.SECONDS.sleep(1);
