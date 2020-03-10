@@ -40,6 +40,7 @@ public @interface Description { //使用 @interface 来定义注解
 
 ## 元注解
 ```
+// 作用范围
 public enum ElementType {
     /** Class, interface (including annotation type), or enum declaration */
     TYPE,
@@ -81,6 +82,8 @@ public enum ElementType {
 }
 ```
 ```
+// Retention n. 保留；保持；维持；记忆力
+// 生命周期
 public enum RetentionPolicy {
     /**
      * Annotations are to be discarded by the compiler.
@@ -126,7 +129,7 @@ import java.lang.annotation.*;
 
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-@Inherited
+@Inherited // 类之间继承上，接口实现不算
 @Documented
 public @interface Description {
 
@@ -142,3 +145,11 @@ public @interface Description {
 
 # 解析注解
 - 通过**反射**获取类，函数或成员上的运行时注解信息，从而实现动态控制程序运行逻辑
+
+# 项目实战 见 project 包中
+- 项目取自一个公司的持久层框架，用来代替Hibernete的解决方案，核心代码通过注解来实现
+- 需求
+    - 有一张用户表，字段用户id, 用户名, 昵称, 年龄, 性别, 所在城市, 邮箱, 手机号
+    - 方便对每个字段或字段组合条件进行检索，并打印出SQL
+    - 使用方式足够简单，见代码实例
+    - 可以看看 mybatis-plus 的源代码
