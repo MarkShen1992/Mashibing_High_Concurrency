@@ -20,7 +20,7 @@ public class GeoTest {
     /**
      * 指定数据库路径
      */
-    static String DATABASE_PATH = "";
+    static String DATABASE_PATH = System.getProperty("user.dir") + "/src/main/java/com/geo/GeoLite2-City.mmdb";
 
     public static void main(String[] args) throws Exception {
         // A File object pointing to your GeoIP2 or GeoLite2 database
