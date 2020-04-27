@@ -47,11 +47,12 @@
 - [Chapter03_Java异常处理机制](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0300)
   - 一个图
   - 五个关键字
-    - try catch finally throw thows
+    - try, catch, finally, throw, throws
   - 异常捕获原则
-    - 先逮小的，在逮大的
+    - 先逮小的，再逮大的
     - 异常和重写的关系
-
+    - 重写方法需要抛出与原方法所抛出异常类型一致的异常 或者 不抛出异常
+  
 - [Chapter04_数组](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0400)
   - 数组的内存布局
   - 常见算法
@@ -99,12 +100,12 @@
 - [Chapter09_网络编程](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0900)
   - 网络协议分层思想
   - IP概念
-  - TCP/UDP概念
+  - TCP / UDP概念
   - TCP / UDP程序的写法
     - 知识点融会贯通，+ io 应用
 
 - [Chapter10_GUI](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter1000)
-  - 时间模型，**观察者模式**
+  - 事件模型，**观察者模式**
   - [设计模式的代码](https://github.com/MarkShen1992/DesignPattern), 使用MyEclipse打开更好，有图可以看
 
 - [Chapter11_反射](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter1100)
