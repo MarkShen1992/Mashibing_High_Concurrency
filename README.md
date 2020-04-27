@@ -7,16 +7,36 @@
 
 - [Chapter01_Java语言基础](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0100)
   - **关键字**：if, else, switch, for, while, do while, break, continue, void
+  
   - 变量作用域：**出了这个大括号就再也没有人认识这个变量了。**
+  
   - 基本数据类型：**四类八种**
     - 整数类型：byte(1 byte), short(2 bytes), int(4 bytes), long(8 bytes)
     - 浮点类型：float(4 bytes), double(8 bytes)
     - 字符类型：char(2 bytes)
-    - 布尔类型：bool
+    - 布尔类型：boolean
+  
+    > Instead, expressions in the Java programming language that operate on boolean values are compiled to use values of the Java Virtual Machine **int** data type.
+    >
+    > ​                                                                                                                                                   -- [*JVMS8*](https://github.com/MarkShen1992/bookstore/tree/master/java/Java%20Virtual%20Machine/jvm8)
+    
+    ```java
+    boolean flag = false;
+    ```
+    
+    >In Oracle’s Java Virtual Machine implementation, boolean arrays in the Java programming language are encoded as Java Virtual Machine byte arrays, using 8 bits per boolean element.
+    >
+    >​                                                                                                                                                   -- [*JVMS8*](https://github.com/MarkShen1992/bookstore/tree/master/java/Java%20Virtual%20Machine/jvm8)
+    
+    ```java
+    boolean[] flags = {false, true, false, true, true};
+    ```
+  
   - 形参，实参，返回值，返回值类型
   - 递归调用
-
+  
 - [**Chapter02_面向对象编程**](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0200)
+  
   - **内存分析贯穿始终，画图分析**
   - 对象与类的概念
   - **面向对象设计思想**
@@ -40,18 +60,20 @@
     - toString
   - upcasting downcasting
   - polymorphism  / dynamic binding / late
-  - abstract class
+    - 有继承关系存在
+    - 存在方法重写 @Override
+    - 父类引用指向子类对象
+- abstract class
   - interface
     - implements
-
+  
 - [Chapter03_Java异常处理机制](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0300)
   - 一个图
   - 五个关键字
     - try, catch, finally, throw, throws
   - 异常捕获原则
     - 先逮小的，再逮大的
-    - 异常和重写的关系
-    - 重写方法需要抛出与原方法所抛出异常类型一致的异常 或者 不抛出异常
+    - 异常和重写的关系: **重写方法需要抛出与原方法所抛出异常类型一致的异常 或者 不抛出异常**
   
 - [Chapter04_数组](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0400)
   - 数组的内存布局
