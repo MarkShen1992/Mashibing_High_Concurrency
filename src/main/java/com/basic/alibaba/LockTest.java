@@ -1,4 +1,4 @@
-package com.basic;
+package com.basic.alibaba;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;

@@ -1,4 +1,4 @@
-package com.basic;
+package com.basic.alibaba;
 
 import java.math.BigDecimal;
 

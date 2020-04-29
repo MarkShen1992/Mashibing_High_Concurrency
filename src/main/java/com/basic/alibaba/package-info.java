@@ -1,4 +1,4 @@
-package com.basic;
+package com.basic.alibaba;
 
 /**
  * @link https://developer.aliyun.com/special/tech-java
