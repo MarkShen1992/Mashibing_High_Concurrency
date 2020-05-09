@@ -1,10 +1,9 @@
 package com.mark.concurrent01;
 
+import junit.framework.TestCase;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import com.mark.concurrent01.T;
-import junit.framework.TestCase;
 
 /**
  * Unit test for simple App.
