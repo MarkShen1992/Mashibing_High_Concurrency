@@ -17,5 +17,10 @@ public class IntegerCacheTest {
         Integer b = 128;
         System.out.println(a == b);
         System.out.println(a.equals(b));
+
+        Integer c = null;
+        Boolean flag = false;
+        // a*b 的结果是 int 类型，那么 c 会强制拆箱成 int 类型，抛出 NPE 异常
+        Integer result=(flag ? a * b : c);
     }
 }
