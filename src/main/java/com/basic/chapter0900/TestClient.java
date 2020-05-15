@@ -14,7 +14,7 @@ public class TestClient {
 			s1.close();
 		} catch (ConnectException connExc) {
 			connExc.printStackTrace();
-			System.err.println("����������ʧ�ܣ�");
+			System.err.println("throw connection exception...");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

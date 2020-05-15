@@ -1,4 +1,5 @@
 package com.basic.chapter1000;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -7,7 +8,7 @@ public class TestActionEvent2 {
         Frame f = new Frame("Test");
         Button b1 = new Button("Start");
         Button b2 = new Button("Stop");
-		Monitor6 bh = new Monitor6();
+        Monitor6 bh = new Monitor6();
         b1.addActionListener(bh);
         b2.addActionListener(bh);
         b2.setActionCommand("game over");

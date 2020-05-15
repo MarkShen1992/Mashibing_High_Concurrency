@@ -1,9 +1,4 @@
-package com.basic.chapter1000;/*	�������ƣ�AWT ��ͼ����
- * 	Դ�ļ����ƣ�AWTDrawing2.java
- *	Ҫ  �㣺
- *		1. AWT�����ͼԭ��
- *		2. Graphics�༰���û�ͼ����
- */
+package com.basic.chapter1000;
 
 import java.awt.*;
 

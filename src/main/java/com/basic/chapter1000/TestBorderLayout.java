@@ -17,8 +17,6 @@ public class TestBorderLayout {
 		f.add(be, "East");
 		f.add(bc, "Center");
 		
-		
-		// Ҳ��ʹ���������
 		/*
 		f.add(bn, BorderLayout.NORTH);
 		f.add(bs, BorderLayout.SOUTH);
