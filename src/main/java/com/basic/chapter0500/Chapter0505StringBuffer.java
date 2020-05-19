@@ -12,10 +12,9 @@ public class Chapter0505StringBuffer {
         char[] a = {'a', 'b', 'c'};
         StringBuilder sb = new StringBuilder(s);
         sb.append("/").append("IBM")
-            .append("/").append("Sun");
+                .append("/").append("Sun");
         sb.insert(0, a);
         System.out.println(sb);
         System.out.println(sb.reverse());
-
     }
 }

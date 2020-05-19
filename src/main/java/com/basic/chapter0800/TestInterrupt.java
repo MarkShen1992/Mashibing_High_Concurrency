@@ -36,8 +36,7 @@ public void run() {
       t = t.trim();
       String[] time = t.split(":");
       if (time.length == 3) {
-        System.out.println(�������ǡ� + time[0] + ���㡱 + 
-                  time[1] + "��" + time[2] + "��");
+        System.out.println(time[0] + time[1] + time[2]);
       }
       try {
         Thread.sleep(5000);

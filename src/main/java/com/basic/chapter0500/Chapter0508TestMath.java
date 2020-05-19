@@ -2,7 +2,7 @@ package com.basic.chapter0500;
 
 /**
  * Math 测试类
- *  图形学，游戏中可以使用Math类中的方法
+ * 图形学，游戏中可以使用Math类中的方法
  *
  * @MarkShen
  * @since 20191129

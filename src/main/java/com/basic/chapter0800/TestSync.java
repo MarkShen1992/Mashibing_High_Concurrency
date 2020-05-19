@@ -22,13 +22,13 @@ class Timer {
     private static int num = 0;
 
     public synchronized void add(String name) {
-        //synchronized (this) {
+        // synchronized (this) {
         num++;
         try {
             Thread.sleep(1);
         } catch (InterruptedException e) {
         }
-        System.out.println(name + ", ���ǵ�" + num + "��ʹ��timer���߳�");
-        //}
+        System.out.println(name + ", " + num);
+        // }
     }
 }

@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * 两个类如果equals,那么他们之间的hashcode必须一样
- *
+ * <p>
  * 多读Map接口对应的API, JavaDoc
  */
 public class TestMap2 {
@@ -18,7 +18,7 @@ public class TestMap2 {
         System.out.println(m1.containsKey("one"));
 
         if (m1.containsKey("two")) {
-            //int i = ((Integer)m1.get("two")).intValue();
+            // int i = ((Integer)m1.get("two")).intValue();
             int i = m1.get("two");
             System.out.println(i);
         }

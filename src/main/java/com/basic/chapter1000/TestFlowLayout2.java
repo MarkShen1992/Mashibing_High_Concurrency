@@ -5,8 +5,7 @@ import java.awt.*;
 public class TestFlowLayout2 {
     public static void main(String args[]) {
         Frame f = new Frame("Java Frame");
-        FlowLayout l =
-                new FlowLayout(FlowLayout.CENTER, 20, 40);
+        FlowLayout l = new FlowLayout(FlowLayout.CENTER, 20, 40);
         f.setLayout(l);
         f.setLocation(300, 400);
         f.setSize(300, 200);

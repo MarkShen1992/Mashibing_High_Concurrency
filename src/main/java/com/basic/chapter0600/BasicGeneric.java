@@ -4,9 +4,9 @@ import java.util.*;
 
 /**
  * Java 泛型底层:
- *  https://www.cnblogs.com/liang1101/p/6407871.html
+ * https://www.cnblogs.com/liang1101/p/6407871.html
  *
- * @author  MarkShen
+ * @author MarkShen
  * @since 20191221
  */
 public class BasicGeneric {
@@ -33,7 +33,7 @@ public class BasicGeneric {
             String s = c.get(i);
             System.out.println(s);
         }
-        c.add(1,"insert");
+        c.add(1, "insert");
         System.out.println();
         for (String s : c) {
             System.out.println(s);

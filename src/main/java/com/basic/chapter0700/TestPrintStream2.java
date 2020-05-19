@@ -19,7 +19,7 @@ public class TestPrintStream2 {
             }
             br.close();
         } catch (IOException e) {
-            fs.println("�޷���ȡ�ļ�");
+            fs.println(e);
         }
     }
 }

@@ -4,8 +4,7 @@ import java.awt.*;
 
 public class TestPanel {
     public static void main(String args[]) {
-        Frame f =
-                new Frame("Java Frame with Panel");
+        Frame f = new Frame("Java Frame with Panel");
         Panel p = new Panel(null);
         f.setLayout(null);
         f.setBounds(300, 300, 500, 500);
