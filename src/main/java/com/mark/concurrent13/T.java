@@ -9,7 +9,7 @@ import java.util.List;
  *
  * volatile与synchronized关键字区别？
  * volatile 只能保证可见性，效率高
- * synchronized 既保证可见性，有保证原子性，效率低
+ * synchronized 既保证可见性，又保证原子性，效率低
  * @author MarkShen
  */
 public class T {
@@ -22,7 +22,7 @@ public class T {
 	
 	public static void main(String[] args) {
 		T t = new T();
-		List<Thread> threads = new ArrayList<Thread>();
+		List<Thread> threads = new ArrayList<>();
 		
 		for (int i = 0; i < 10; i ++) {
 			threads.add(new Thread(t::m, "thread-" + i));

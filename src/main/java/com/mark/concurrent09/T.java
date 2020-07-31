@@ -3,8 +3,9 @@ package com.mark.concurrent09;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 一个同步方法可以调用另一个同步方法。 一个线程已经某个对象的锁，再次申请的时候任然会得到该对象的锁
+ * 一个同步方法可以调用另一个同步方法。 一个线程已经获得某个对象的锁，再次申请的时候仍然会得到该对象的锁
  * 也就是说synchronized获得的锁是可重入的
+ * synchronized 锁升级： https://blog.csdn.net/tongdanping/article/details/79647337
  * @author MarkShen
  */
 public class T implements Runnable {
