@@ -34,4 +34,12 @@ public class Department {
     public void setLeader(String leader) {
         this.leader = leader;
     }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmout(int amount) {
+        this.amount = amount;
+    }
 }
