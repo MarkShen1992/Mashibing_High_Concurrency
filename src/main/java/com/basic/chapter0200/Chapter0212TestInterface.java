@@ -43,3 +43,31 @@ interface D extends C, A, B {
     void sleep();
     void sing();
 }
+
+class F implements D {
+
+    @Override
+    public void print() {
+
+    }
+
+    @Override
+    public void print(A a) {
+
+    }
+
+    @Override
+    public void test() {
+
+    }
+
+    @Override
+    public void sleep() {
+
+    }
+
+    @Override
+    public void sing() {
+
+    }
+}
