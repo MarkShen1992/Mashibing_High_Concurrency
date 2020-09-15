@@ -93,6 +93,8 @@
 
 - [**Chapter06_容器类**](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0600)
   - 一个图
+  
+  ![Java IO](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/materials/CollectionFramework.png)
   - 一个类
     - Collections
   - 三个知识点
