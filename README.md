@@ -52,6 +52,7 @@
     - 参数类型
     - 参数顺序
   - this
+  - super
   - static
   - package & import
   - private default protected public
@@ -73,6 +74,8 @@
   
 - [Chapter03_Java异常处理机制](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0300)
   - 一个图
+  
+  ![Exception](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/materials/Exception.png)
   - 五个关键字
     - try, catch, finally, throw, throws
   - 异常捕获原则
@@ -94,7 +97,7 @@
 - [**Chapter06_容器类**](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0600)
   - 一个图
   
-  ![Java IO](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/materials/CollectionFramework.png)
+  ![Collection Framework](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/materials/CollectionFramework.png)
   - 一个类
     - Collections
   - 三个知识点
@@ -102,6 +105,12 @@
     - Generic
     - Auto-boxing / unboxing
   - 六个接口
+    - Collection
+    - Set
+    - List
+    - Map
+    - Iterator
+    - Comparable
 
 - [**Chapter07_IO流技术**](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/basic/chapter0700)
   
