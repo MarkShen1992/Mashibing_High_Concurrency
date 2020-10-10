@@ -178,7 +178,7 @@
 
 如果你喜欢这个项目，请我喝杯咖啡吧。
 
-![like code](https://github.com/MarkShen1992/markshen1992.github.io/blob/master/code/like%20code.jpg)
+![like code](https://github.com/MarkShen1992/markshen1992.github.io/blob/master/code/like%20code.png)
 
 **Don't count the days, make each day count.**
 
