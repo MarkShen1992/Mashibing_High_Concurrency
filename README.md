@@ -1,3 +1,9 @@
+### 小统计：
+
+![Stargazers over time](https://starchart.cc/MarkShen1992/Mashibing_High_Concurrency.svg)
+
+
+
 ### 代码目录
 
 - Chapter00_初识Java
