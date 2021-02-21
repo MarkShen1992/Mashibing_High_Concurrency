@@ -8,8 +8,8 @@ package com.basic.alibaba;
  */
 public class IntegerCacheTest {
     public static void main(String[] args) {
-        Integer aa = 120;
-        Integer bb = 120;
+        Integer aa = 127;
+        Integer bb = 127;
         System.out.println(aa.equals(bb));
         System.out.println(aa == bb);
 
@@ -18,9 +18,13 @@ public class IntegerCacheTest {
         System.out.println(a == b);
         System.out.println(a.equals(b));
 
+        int aaa = 128;
+        int bbb = 128;
+        System.out.println(aaa == bbb);
+
         Integer c = null;
         Boolean flag = false;
         // a*b 的结果是 int 类型，那么 c 会强制拆箱成 int 类型，抛出 NPE 异常
-        Integer result=(flag ? a * b : c);
+        Integer result = (flag ? a * b : c);
     }
 }
