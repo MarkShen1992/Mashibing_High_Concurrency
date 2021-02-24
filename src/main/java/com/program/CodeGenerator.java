@@ -20,7 +20,21 @@ public class CodeGenerator {
         return code.toString();
     }
 
+    /**
+     * https://dzone.com/articles/java-string-format-examples
+     *
+     * @param digits 位数
+     * @param val 值
+     * @return
+     */
+    public static String convert(int digits, int val) {
+        StringBuilder sb = new StringBuilder();
+        sb.append("%0").append(digits).append("d");
+        return String.format(sb.toString(), val);
+    }
+
     public static void main(String[] args) {
         System.out.println(generateCode(4));
+        System.out.println(convert(10, 1));
     }
 }
