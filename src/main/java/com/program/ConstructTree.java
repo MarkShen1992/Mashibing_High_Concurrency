@@ -96,9 +96,7 @@ public class ConstructTree {
      * @return 根节点信息
      */
     private static List<Menu> getChildrens(Menu root, List<Menu> all) {
-        List<Menu> children = all.stream().filter(m -> {
-            return Objects.equals(m.getpId(), root.getId());
-        }).map((m) -> {
+        List<Menu> children = all.stream().filter(m -> Objects.equals(m.getpId(), root.getId())).map((m) -> {
             m.setMenu(getChildrens(m, all));
             return m;
         }).collect(Collectors.toList());
