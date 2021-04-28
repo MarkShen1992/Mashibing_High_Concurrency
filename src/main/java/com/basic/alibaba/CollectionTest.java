@@ -1,10 +1,5 @@
 package com.basic.alibaba;
 
-import javafx.util.Pair;
-
-import java.util.*;
-import java.util.stream.Collectors;
-
 /**
  * 集合处理
  *
@@ -12,6 +7,7 @@ import java.util.stream.Collectors;
  * @since 20200509
  */
 public class CollectionTest {
+    /*
     public static void main(String[] args) {
         List<String> strings = new ArrayList<>();
 
@@ -75,4 +71,5 @@ public class CollectionTest {
             }
         }
     }
+    */
 }
