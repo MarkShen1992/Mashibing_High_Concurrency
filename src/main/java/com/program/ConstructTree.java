@@ -2,14 +2,21 @@ package com.program;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
+import java.util.stream.Collectors;
+
+import com.alibaba.fastjson.JSON;
 
 /**
  * 树形结构遍历
- * @Date 2021-02-25
+ *
  * @author MarkShen
+ * @Date 2021-02-25
  */
 public class ConstructTree {
+
     static class Menu {
+
         private int id;
         private String name;
         private int pId;
@@ -55,12 +62,7 @@ public class ConstructTree {
 
         @Override
         public String toString() {
-            return "Menu{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", pId=" + pId +
-                ", menu=" + menu +
-                '}';
+            return "Menu{" + "id=" + id + ", name='" + name + '\'' + ", pId=" + pId + ", menu=" + menu + '}';
         }
     }
 
@@ -75,6 +77,31 @@ public class ConstructTree {
         menus.add(new Menu(7, "货物管理", 1));
         menus.add(new Menu(8, "仓库管理", 1));
 
+        // 获取父节点
+        List<Menu> collect = menus.stream().filter(m -> m.getpId() == 0).map((m) -> {
+            m.setMenu(getChildrens(m, menus));
+            return m;
+        }).collect(Collectors.toList());
+        System.out.println("-------转json输出结果-------");
+        System.out.println(JSON.toJSON(collect));
+    }
 
+    /**
+     * 递归查询子节点
+     *
+     * @param root
+     *            根节点
+     * @param all
+     *            所有节点
+     * @return 根节点信息
+     */
+    private static List<Menu> getChildrens(Menu root, List<Menu> all) {
+        List<Menu> children = all.stream().filter(m -> {
+            return Objects.equals(m.getpId(), root.getId());
+        }).map((m) -> {
+            m.setMenu(getChildrens(m, all));
+            return m;
+        }).collect(Collectors.toList());
+        return children;
     }
 }
