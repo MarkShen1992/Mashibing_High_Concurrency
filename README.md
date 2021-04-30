@@ -180,6 +180,11 @@
 
 - [Chapter13_利用反射做的小项目](https://github.com/MarkShen1992/Mashibing_High_Concurrency/tree/master/src/main/java/com/annotation)
 
+- 常用工具代码
+
+  - [树形结构遍历](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/src/main/java/com/program/ConstructTree.java)
+  - [Code生成](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/src/main/java/com/program/CodeGenerator.java)
+
 
 
 如果你喜欢这个项目，请我喝杯咖啡吧。
