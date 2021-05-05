@@ -9,7 +9,7 @@
 - Chapter00_初识Java
   - Hello World
   - 初步认识
-  - 程序格式
+  - 代码风格
     - [谷歌代码风格](https://google.github.io/styleguide)
     - [阿里代码风格](https://github.com/alibaba/p3c)
 
