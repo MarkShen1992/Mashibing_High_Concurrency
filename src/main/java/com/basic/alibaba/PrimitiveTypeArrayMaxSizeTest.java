@@ -25,8 +25,8 @@ public class PrimitiveTypeArrayMaxSizeTest {
         // float[] floats = new float[Integer.MAX_VALUE - 715784195];
         // System.out.println(floats.length);
 
-        // double[] longs = new double[Integer.MAX_VALUE - 1431633921];
-        // System.out.println(longs.length);
+        // double[] doubles = new double[Integer.MAX_VALUE - 1431633921];
+        // System.out.println(doubles.length);
 
         boolean[] booleans = new boolean[Integer.MAX_VALUE - 2];
         System.out.println(booleans.length);
