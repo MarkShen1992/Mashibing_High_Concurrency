@@ -6,6 +6,13 @@ package com.basic.alibaba;
  */
 public class PrimitiveTypeArrayMaxSizeTest {
     public static void main(String[] args) {
+        // JVM 学习站点：
+        // 1. http://lovestblog.cn/
+        // 2. https://heapdump.cn/
+
+        // 注意：这里使用的虚拟机参数：-Xms9g -Xmx9g
+        // Xms:
+        // Xmx:
 
         // char[] chars = new char[Integer.MAX_VALUE - 2];
         // System.out.println(chars.length);
