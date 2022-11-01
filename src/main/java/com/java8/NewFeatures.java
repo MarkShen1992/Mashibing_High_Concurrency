@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package com.java8;
 
@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * @author MarkShen
  * @see https://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html
- *
+ * @see https://openjdk.org/projects/jdk8/features
  * @see http://www.importnew.com/16436.html
  */
 public class NewFeatures {
