@@ -2,7 +2,7 @@
 
 ![Stargazers over time](https://starchart.cc/MarkShen1992/Mashibing_High_Concurrency.svg)
 
-
+> **Don't count the days, make each day count.**
 
 ### 代码目录
 
@@ -187,15 +187,9 @@
   - [树形结构遍历](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/src/main/java/com/program/ConstructTree.java)
   - [Code生成](https://github.com/MarkShen1992/Mashibing_High_Concurrency/blob/master/src/main/java/com/program/CodeGenerator.java)
 
-
-
 如果你喜欢这个项目，请我喝杯咖啡吧。
 
- ![like code](./like.jpg)
-
-
-
-**Don't count the days, make each day count.**
+<img src="./like.jpg" alt="drawing" width="300" style="float: left;"/>
 
 
 
