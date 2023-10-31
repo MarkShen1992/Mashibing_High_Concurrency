@@ -26,6 +26,9 @@ public class DateTest {
     private final static int DAY = 1;
 
     public static void main(String[] args) {
+        String time = "2023-01-04T00:00:00";
+        System.out.println(time.split("T")[0].replace("-", "/"));
+
         DateFormat dateFormat = new SimpleDateFormat(PATTERN);
         System.out.println(dateFormat.format(new Date()));
 
